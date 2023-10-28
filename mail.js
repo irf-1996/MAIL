@@ -13,12 +13,12 @@ const transporter = nodemailer.createTransport({
 // Email data
 const mailOptions = {
   from: 'amaluirfana96@gmail.com',
-  to: 'amaluirfana96@gmail.com',
+  to: 'anjanavu2000@gmail.com',
   subject: 'Hello from Nodemailer',
   text: 'This is a test email sent from Nodemailer!'
 };
 
-// Send the email
+// Send the email to the person
 transporter.sendMail(mailOptions, (error, info) => {
   if (error) {
     console.log('Error sending email: ' + error);
